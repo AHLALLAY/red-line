@@ -25,8 +25,8 @@
     * Les coordonnées de connection vient de l'admin.
 2. Noter les Absences.
 3. Noter les Activités dans la classe _(cahier de text numérique)_ :
-    * le cours effectuer _(page, date, type)_.
-    * evaluations _(cours, date, durée)_.
+    * Le cours effectuer _(page, date, type)_.
+    * Evaluations _(cours, date, durée)_.
 4. Les documents pédagogique.
 5. Demande 
 
@@ -51,6 +51,8 @@
 1. Accueil :
     * Section hero : _paragraph de bienvenue avec un carrousel d'images presenter l'école._
     * Section informations _(l'équipe pédagogique, capacité maximale ...)_.
+    * Section de demande de Stage.
+    * Section pour afficher les offres d'emploi ou de stage.
     * Section de demande d'inscription.
 2. Inscription :
     * Information demander : _nom complete, naissance, image_.
