@@ -187,5 +187,3 @@ Communication|Difficulté de partage d'information
 * Export PDF des documents
 * Sauvegarde automatique
 * Messagerie interne
-* Tableau de bord personnalisé
-* Support multilingue
