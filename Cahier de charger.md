@@ -1,13 +1,13 @@
-# System de Gestion Des Ecoles [Ecole Network]
+# 🏫 System de Gestion Des Ecoles [Ecole Network]
 
-## Problématique
+## ❗ Problématique
 Dans le domaine de l'éducation, notre étude révèle une réalité préoccupante: **plus de 70%** des établissements restent dépendants des méthodes traditionnelles (papier et gestion manuelle) pour leurs opérations quotidiennes, notamment :
 * L'inscription des étudiants
 * La gestion du personnel
 * Les tâches administratives
 * Le suivi académique
 
-### Impact Négatifs Constatés
+### 📊 Impact Négatifs Constatés
 
 Impact|Description
 --|--
@@ -17,10 +17,10 @@ Ressources Financières|Coûts élevés liés à la gestion papier
 Qualité de service|Délais de traitement importants
 Communication|Difficulté de partage d'information
 
-## Solutions
+## 💡 Solutions
 **Ecole Network** est une solution innovante dédiée à la gestion scolaire moderne. Cette Application répond aux besoins croissants de digitalisation du secteur éducatif en proposant des outils performants et intuitifs.
 
-### Architecture Technique
+### 🔧 Architecture Technique
 * Backend : PHP/MySQL.
 * Frontend : HTML5, CSS3, JavaScript.
 * Sécurité : 
@@ -32,9 +32,9 @@ Communication|Difficulté de partage d'information
     * Protection des données personnelles.
     * Droit à l'oubli.
 
-## Acteurs et leurs rôles
-### Admin
-#### Users stories
+## 👥 Acteurs et leurs rôles
+### 👨‍💼 Admin
+#### 📋 Users stories
 1. Se connecter avec un email fixe (stocké dans la base de données)
 2. Gérer les personnels :
     * Ajouter un personnel (nom, prénom, date de naissance, adresse, diplôme, rôle, photo)
@@ -51,7 +51,7 @@ Communication|Difficulté de partage d'information
     * Âge
     * Notes
 
-#### Pages
+#### 📱 Pages
 1. index.php :
     * Section accueil :
         * Carrousel d'images présentant l'école.
@@ -80,8 +80,8 @@ Communication|Difficulté de partage d'information
         * Tableaux de bord.
         * Graphiques.
 
-### Professeur
-#### Users stories
+### 👨‍🏫 Professeur
+#### 📋 Users stories
 1. Se connecter
 2. Gérer les absences
 3. Noter les activités :
@@ -91,7 +91,7 @@ Communication|Difficulté de partage d'information
 5. Gérer les parcours scolaires
 6. Filtrer les élèves
 7. Gérer les congés
-#### Pages
+#### 📱 Pages
 1. login.php :
     * Formulaire de connexion sécurisé.
 2. professeur.php :
@@ -111,15 +111,15 @@ Communication|Difficulté de partage d'information
     * Section statistiques
         * Moyennes par classe
 
-### Elèves
-#### Users stories
+### 👨‍🎓 Elèves
+#### 📋 Users stories
 1. Consulter les activités.
 2. Consulter les notes.
 3. Voir les congés.
-#### Pages
+#### 📱 Pages
 1. login.php :
     * Formulaire de connexion élève.
-2.eleve.php :
+2. eleve.php :
     * Section 'activité à domicile' :
         * Liste des devoirs..
         * Ressources disponibles.
@@ -130,13 +130,13 @@ Communication|Difficulté de partage d'information
         * Planning hebdomadaire.
         * Événements spéciaux.
 
-### Parents
-#### Users stories
+### 👪 Parents
+#### 📋 Users stories
 1. Consulter l'accueil
 2. Inscrire un enfant
 3. Suivre les activités
 4. Consulter les notes
-#### Pages
+#### 📱 Pages
 1. index.php :
     * Même contenu que admin.index.php.
 2. login.php :
@@ -149,14 +149,14 @@ Communication|Difficulté de partage d'information
         * Messages des enseignants.
         * Notifications école.
 
-### Secrétaire
-#### Users stories
+### 👩‍💼 Secrétaire
+#### 📋 Users stories
 1. Gérer les documents :
     * Scanner les pièces
     * Imprimer les attestations
     * Gérer les relevés
     * Gérer les départs
-#### Pages
+#### 📱 Pages
 1. login.php :
     * Formulaire de connexion secrétaire.
 2. document.php :
@@ -172,17 +172,17 @@ Communication|Difficulté de partage d'information
         * Gestion des départs.
         * Historique documents.
 
-### Comptable
-#### Users stories
+### 💰 Comptable
+#### 📋 Users stories
 1. Gérer la comptabilité
-#### Pages
-2. comptable.php :
+#### 📱 Pages
+1. comptable.php :
     * Section comptabilité :
         * Saisie des charges.
         * Saisie des produits.
     * Section rapports.
 
-## Fonctionnalités Additionnelles
+## ⭐ Fonctionnalités Additionnelles
 * Notifications par email ou SMS
 * Export PDF des documents
 * Sauvegarde automatique
